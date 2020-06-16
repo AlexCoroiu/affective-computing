@@ -1,0 +1,63 @@
+1
+00:00:45,720 --> 00:00:47,430
+speech-laugh
+medium
+simultaneous
+
+
+2
+00:01:33,240 --> 00:01:36,240
+laugh
+low
+following/preceding
+
+
+3
+00:03:14,485 --> 00:03:16,855
+speech-laugh
+medium
+simultaneous
+
+
+4
+00:03:53,965 --> 00:03:56,405
+laugh
+low
+following/preceding
+
+5
+00:07:08,720 --> 00:07:09,760
+laugh
+low
+following/preceding
+
+6
+00:09:30,375 --> 00:09:33,545
+speech-laugh
+low
+simultaneous
+
+7
+00:10:34,990 --> 00:10:37,580
+laugh
+low
+following/preceding
+
+8
+00:11:45,140 --> 00:11:47,790
+laugh
+low
+following/preceding
+
+9
+00:13:10,230 --> 00:13:11,780
+laugh
+low
+following/preceding
+
+10
+00:13:40,140 --> 00:13:42,340
+speech-laugh
+medium
+simultaneous
+

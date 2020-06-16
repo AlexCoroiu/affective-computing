@@ -1,0 +1,116 @@
+1
+00:00:19,090 --> 00:00:30,800
+speech-laugh
+high
+simultaneous
+
+2
+00:03:36,000 --> 00:03:38,300
+laugh
+medium
+following/preceding
+
+3
+00:04:01,765 --> 00:04:05,655
+laugh
+low
+isolated
+
+4
+00:05:12,925 --> 00:05:15,655
+speech-laugh
+medium
+simultaneous
+
+5
+00:06:17,855 --> 00:06:21,135
+speech-laugh
+medium
+simultaneous
+
+6
+00:10:18,040 --> 00:10:20,200
+speech-laugh
+medium
+following/preceding
+
+7
+00:10:33,885 --> 00:10:36,255
+speech-laugh
+low
+simultaneous
+
+8
+00:10:40,800 --> 00:10:44,510
+laugh
+high
+following/preceding
+
+9
+00:11:32,840 --> 00:11:34,970
+speech-laugh
+high
+simultaneous
+
+10
+00:13:42,100 --> 00:13:42,490
+laugh
+low
+following/preceding
+
+11
+00:13:54,370 --> 00:13:55,430
+laugh
+medium
+following/preceding
+
+12
+00:16:46,370 --> 00:16:48,650
+laugh
+medium
+following/preceding
+social incongruity
+
+13
+00:17:54,985 --> 00:17:57,735
+laugh
+low
+simultaneous
+
+14
+00:18:17,010 --> 00:18:18,925
+laugh
+medium
+simultaneous
+
+15
+00:18:18,925 --> 00:18:19,895
+speech-laugh
+medium
+simultaneous
+
+16
+00:18:19,915 --> 00:18:22,735
+laugh
+medium
+following/preceding
+
+17
+00:19:03,890 --> 00:19:07,350
+speech-laugh
+low
+simultaneous
+
+18
+00:20:41,685 --> 00:20:43,625
+laugh
+low
+following/preceding
+
+
+19
+00:21:08,150 --> 00:21:10,630
+speech-laugh
+low
+simultaneous
+

@@ -1,0 +1,181 @@
+1
+00:00:25,030 --> 00:00:25,060
+speech-laugh
+low
+
+2
+00:00:25,518 --> 00:00:25,590
+laugh
+
+3
+00:01:07,033 --> 00:01:09,933
+laugh
+medium
+simultaneous
+
+4
+00:01:21,628 --> 00:01:25,498
+laugh
+medium
+following/preceding
+
+5
+00:03:29,820 --> 00:03:31,310
+laugh
+low
+following/preceding
+
+6
+00:03:41,430 --> 00:03:43,030
+laugh
+low
+isolated
+
+7
+00:04:45,545 --> 00:04:46,175
+laugh
+low
+isolated
+
+8
+00:05:57,805 --> 00:05:59,765
+laugh
+low
+following/preceding
+
+9
+00:06:24,110 --> 00:06:26,600
+laugh
+medium
+simultaneous
+
+10
+00:07:14,710 --> 00:07:17,210
+laugh
+medium
+following/preceding
+
+11
+00:08:08,185 --> 00:08:09,015
+laugh
+low
+following/preceding
+
+
+12
+00:09:20,625 --> 00:09:22,965
+laugh
+low
+following/preceding
+
+13
+00:10:24,668 --> 00:10:25,228
+laugh
+low
+following/preceding
+
+14
+00:10:40,233 --> 00:10:45,393
+laugh
+low
+following/preceding
+
+15
+00:10:55,518 --> 00:11:00,378
+laugh
+medium
+simultaneous
+
+16
+00:11:34,413 --> 00:11:38,013
+laugh
+low
+simultaneous
+
+17
+00:12:49,618 --> 00:12:55,298
+laugh
+low
+following/preceding
+
+18
+00:13:02,033 --> 00:13:06,183
+laugh
+low
+simultaneous
+
+19
+00:13:40,693 --> 00:13:41,993
+laugh
+low
+following/preceding
+
+20
+00:13:53,168 --> 00:13:56,058
+laugh
+low
+following/preceding
+
+21
+00:14:20,048 --> 00:14:27,218
+laugh
+medium
+simultaneous
+
+22
+00:15:40,448 --> 00:15:41,508
+laugh
+low
+following/preceding
+
+23
+00:16:05,333 --> 00:16:10,053
+speech-laugh
+medium
+simultaneous
+
+24
+00:16:17,438 --> 00:16:20,058
+speech-laugh
+low
+simultaneous
+
+25
+00:16:46,653 --> 00:16:50,403
+speech-laugh
+low
+simultaneous
+
+
+26
+00:17:34,733 --> 00:17:38,013
+speech-laugh
+medium
+following/preceding
+
+
+27
+00:19:30,518 --> 00:19:35,198
+laugh
+low
+isolated
+
+28
+00:19:37,723 --> 00:19:41,333
+laugh
+low
+isolated
+
+29
+00:20:42,193 --> 00:20:42,943
+laugh
+low
+following/preceding
+
+
+30
+00:21:09,223 --> 00:21:12,743
+laugh
+low
+simultaneous
+

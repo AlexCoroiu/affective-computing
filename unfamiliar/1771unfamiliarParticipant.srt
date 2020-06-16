@@ -1,0 +1,42 @@
+1
+00:00:58,875 --> 00:00:59,620
+laugh
+medium
+following/preceding
+pleasant incongruity
+
+2
+00:03:21,785 --> 00:03:22,110
+laugh
+low
+following/preceding
+pleasant incongruity
+
+3
+00:07:01,255 --> 00:07:02,440
+laugh
+medium
+simultaneous
+pleasant incongruity
+
+4
+00:08:03,525 --> 00:08:04,150
+speech-laugh
+medium
+following/preceding
+social incongruity
+
+5
+00:08:21,070 --> 00:08:21,600
+laugh
+medium
+following/preceding
+pleasant incongruity
+
+6
+00:16:12,180 --> 00:16:12,880
+laugh
+medium
+simultaneous
+pleasantness
+

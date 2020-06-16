@@ -1,0 +1,182 @@
+1
+00:00:16,599 --> 00:00:17,430
+laugh
+medium
+simultaneous
+pragmatic incongruity
+
+2
+00:00:27,070 --> 00:00:27,750
+laugh
+low
+following/preceding
+pleasantness
+
+3
+00:00:33,236 --> 00:00:33,516
+speech-laugh
+low
+following/preceding
+pleasant incongruity
+
+4
+00:00:40,450 --> 00:00:40,807
+speech-laugh
+low
+following/preceding
+pleasant incongruity
+
+5
+00:00:41,353 --> 00:00:42,803
+laugh
+medium
+isolated
+pleasant incongruity
+
+6
+00:00:59,065 --> 00:00:59,173
+laugh
+low
+following/preceding
+pleasantness
+
+7
+00:01:06,386 --> 00:01:06,493
+laugh
+low
+isolated
+pleasantness
+
+8
+00:01:07,601 --> 00:01:09,928
+laugh
+medium
+isolated
+pleasantness
+
+9
+00:01:40,188 --> 00:01:40,588
+laugh
+low
+following/preceding
+pleasant incongruity
+
+10
+00:01:50,837 --> 00:01:51,510
+laugh
+low
+isolated
+pleasantness
+
+11
+00:02:58,404 --> 00:02:58,878
+laugh
+medium
+following/preceding
+pleasantness
+
+12
+00:02:59,820 --> 00:03:02,278
+laugh
+medium
+isolated
+pleasantness
+
+13
+00:03:26,295 --> 00:03:28,131
+laugh
+medium
+simultaneous
+pleasant incongruity
+
+14
+00:03:32,014 --> 00:03:33,702
+laugh
+medium
+following/preceding
+pleasant incongruity
+
+15
+00:03:35,273 --> 00:03:37,181
+laugh
+low
+simultaneous
+pleasantness
+
+16
+00:03:42,207 --> 00:03:43,517
+laugh
+low
+simultaneous
+pleasantness
+
+17
+00:04:06,209 --> 00:04:09,184
+laugh
+medium
+isolated
+pleasant incongruity
+
+18
+00:06:02,064 --> 00:06:03,223
+laugh
+medium
+simultaneous
+pleasant incongruity
+
+19
+00:06:12,556 --> 00:06:14,459
+laugh
+medium
+isolated
+pleasant incongruity
+
+20
+00:08:27,842 --> 00:08:28,577
+laugh
+medium
+isolated
+pleasant incongruity
+
+21
+00:10:19,907 --> 00:10:21,032
+laugh
+medium
+isolated
+pleasant incongruity
+
+22
+00:11:18,163 --> 00:11:20,140
+laugh
+medium
+simultaneous
+pleasant incongruity
+
+23
+00:12:06,348 --> 00:12:07,020
+laugh
+medium
+isolated
+pleasant incongruity
+
+24
+00:12:23,379 --> 00:12:27,151
+laugh
+medium
+simultaneous
+pleasant incongruity
+
+25
+00:12:30,398 --> 00:12:30,587
+speech-laugh
+low
+isolated
+pleasantness
+
+26
+00:12:31,777 --> 00:12:34,679
+laugh
+medium
+simultaneous
+pleasant incongruity
+

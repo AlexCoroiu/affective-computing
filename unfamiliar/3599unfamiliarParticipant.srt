@@ -1,0 +1,84 @@
+1
+00:00:19,206 --> 00:00:19,658
+laugh
+low
+simultaneous
+social incongruity
+
+2
+00:00:59,542 --> 00:00:59,894
+laugh
+low
+following/preceding
+social incongruity
+
+3
+00:01:57,529 --> 00:01:57,765
+laugh
+low
+isolated
+pleasantness
+
+4
+00:02:28,160 --> 00:02:28,422
+laugh
+low
+following/preceding
+social incongruity
+
+5
+00:03:22,095 --> 00:03:23,683
+speech-laugh
+low
+following/preceding
+pleasant incongruity
+
+6
+00:05:19,839 --> 00:05:19,994
+laugh
+low
+following/preceding
+pleasant incongruity
+
+7
+00:05:31,396 --> 00:05:31,547
+laugh
+low
+following/preceding
+social incongruity
+
+8
+00:06:47,226 --> 00:06:47,402
+laugh
+low
+following/preceding
+pleasantness
+
+9
+00:07:11,311 --> 00:07:11,874
+laugh
+medium
+simultaneous
+pleasant incongruity
+
+10
+00:07:21,085 --> 00:07:22,959
+laugh
+medium
+following/preceding
+social incongruity
+
+11
+00:07:46,168 --> 00:07:47,492
+laugh
+low
+following/preceding
+pragmatic incongruity
+
+12
+00:11:33,595 --> 00:11:34,544
+speech-laugh
+low
+following/preceding
+pleasant incongruity
+
