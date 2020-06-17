@@ -6,12 +6,13 @@ tier3 = ['isolated','following/preceding','simultaneous']
 
 def extract(file):
     # recording = {frequency, tier2, tier3}
-    recording = {'frequency': 0, 'low': 0, 'medium': 0, 'high': 0, 'isolated': 0, 'following/preceding': 0,
+    recording = {'duration':0,'frequency': 0, 'low': 0, 'medium': 0, 'high': 0, 'isolated': 0, 'following/preceding': 0,
                  'simultaneous': 0}
 
     # read recording
     with open(file, 'r') as file:
         count = 0
+        avg_duration = 0
         end = zero
         #read file
         while True:
@@ -21,6 +22,7 @@ def extract(file):
 
             count = int(line.replace('\n',''))
             (duration, end) = calcTimes(file.readline().replace('\n', '')) #saves laughter ending time for frequency
+            avg_duration = avg_duration + duration.seconds
 
             #read tiers
             while True:
@@ -28,8 +30,12 @@ def extract(file):
                 if(len(tier)<3): break
                 addTier(recording, tier)
 
+    #frequency
     frequency = calcFreq(count, end)
     recording['frequency'] = frequency
+    #duration
+    avg_duration = avg_duration/count
+    recording['duration']=avg_duration
     return (recording)
 
 def addTier(recording, tier):
