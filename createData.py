@@ -38,10 +38,7 @@ unfamiliar = numpy.array(unfamiliarData)
 labels_familiar = numpy.array([1]*len(familiar))
 labels_unfamiliar = numpy.array([0]*len(unfamiliar))
 
-
-#TODO: maybe manual split? to make sure training data is 50-50
 #splitting data into train/test
-
 def split():
     return train_test_split(numpy.concatenate((familiar, unfamiliar)),
                                                           numpy.concatenate((labels_familiar,labels_unfamiliar)),
