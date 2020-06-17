@@ -1,0 +1,161 @@
+1
+00:01:51,060 --> 00:01:52,540
+laugh
+medium
+following/preceding
+pleasant incongruity
+
+2
+00:02:02,750 --> 00:02:03,160
+laugh
+low
+following/preceding
+social incongruity
+
+3
+00:02:07,710 --> 00:02:08,230
+speech-laugh
+low
+following/preceding
+pleasantness
+
+4
+00:02:11,670 --> 00:02:11,840
+laugh
+low
+following/preceding
+pleasantness
+
+5
+00:03:46,045 --> 00:03:46,755
+laugh
+low
+following/preceding
+pleasantness
+
+6
+00:04:41,805 --> 00:04:42,425
+laugh
+medium
+following/preceding
+pleasantness
+
+7
+00:05:06,880 --> 00:05:07,140
+laugh
+low
+isolated
+pleasantness
+
+8
+00:05:25,185 --> 00:05:26,465
+speech-laugh
+low
+isolated
+pleasant incongruity
+
+9
+00:06:06,160 --> 00:06:07,150
+speech-laugh
+low
+following/preceding
+pleasantness
+
+10
+00:06:43,530 --> 00:06:43,770
+laugh
+low
+isolated
+social incongruity
+
+11
+00:07:20,185 --> 00:07:20,465
+laugh
+low
+isolated
+pleasantness
+
+12
+00:07:51,970 --> 00:07:52,290
+laugh
+low
+following/preceding
+pleasantness
+
+13
+00:07:56,130 --> 00:07:56,800
+laugh
+low
+following/preceding
+pleasantness
+
+14
+00:08:01,950 --> 00:08:05,270
+speech-laugh
+medium
+simultaneous
+social incongruity
+
+15
+00:08:39,710 --> 00:08:41,570
+laugh
+low
+simultaneous
+pleasant incongruity
+
+16
+00:08:47,115 --> 00:08:47,645
+speech-laugh
+low
+isolated
+pleasantness
+
+17
+00:09:24,470 --> 00:09:26,390
+speech-laugh
+low
+simultaneous
+pleasant incongruity
+
+18
+00:09:44,785 --> 00:09:48,115
+speech-laugh
+medium
+following/preceding
+pleasant incongruity
+
+19
+00:09:50,000 --> 00:09:51,320
+laugh
+low
+following/preceding
+pleasantness
+
+20
+00:10:25,500 --> 00:10:25,910
+laugh
+low
+following/preceding
+pleasant incongruity
+
+21
+00:10:27,020 --> 00:10:27,630
+laugh
+low
+following/preceding
+pleasant incongruity
+
+22
+00:10:36,380 --> 00:10:38,170
+speech-laugh
+low
+following/preceding
+social incongruity
+
+23
+00:10:59,960 --> 00:11:00,280
+laugh
+low
+isolated
+social incongruity
+

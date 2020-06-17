@@ -20,7 +20,7 @@ def extract(file):
             if not line or len(line)<2: break
 
             count = int(line.replace('\n',''))
-            (duration, end) = calcTimes(file.readline().replace('\n', '')) # saves laughter ending time for frequency
+            (duration, end) = calcTimes(file.readline().replace('\n', '')) #saves laughter ending time for frequency
 
             #read tiers
             while True:

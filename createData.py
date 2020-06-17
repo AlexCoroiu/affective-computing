@@ -24,6 +24,7 @@ print('example data entry:',familiarData[0])
 #create feature vectors
 vectorizer = DictVectorizer(sparse=False)
 
+#example:
 featureVectorsFamiliar = vectorizer.fit_transform(familiarData)
 featureVectorsUnfamiliar = vectorizer.transform(unfamiliarData)
 print('vocab:', vectorizer.get_feature_names())
@@ -40,8 +41,8 @@ labels_unfamiliar = numpy.array([0]*len(unfamiliar))
 
 #TODO: maybe manual split? to make sure training data is 50-50
 #splitting data into train/test
-train, test, train_labels, test_labels = train_test_split(numpy.concatenate((familiar, unfamiliar)),
+
+def split():
+    return train_test_split(numpy.concatenate((familiar, unfamiliar)),
                                                           numpy.concatenate((labels_familiar,labels_unfamiliar)),
                                                           test_size = 0.2)
-print('train:',train, train_labels)
-print('test:',test, test_labels)
