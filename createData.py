@@ -10,7 +10,8 @@ def createData(files):
     list = []
 
     for file in files:
-        list.append(readSRT.extract(file))
+        #here choose default feature combination
+        list.append(readSRT.extract(file, 2))
     return list
 
 #get all files

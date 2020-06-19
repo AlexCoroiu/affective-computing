@@ -4,10 +4,29 @@ zero = dt.datetime.strptime('00:00:00,000', '%H:%M:%S,%f')
 tier2 = ['low','medium','high']
 tier3 = ['isolated','following/preceding','simultaneous']
 
-def extract(file):
-    # recording = {frequency, tier2, tier3}
-    recording = {'duration':0,'frequency': 0, 'low': 0, 'medium': 0, 'high': 0, 'isolated': 0, 'following/preceding': 0,
+#frequency, t3
+f_comb_0 = {'frequency': 0, 'isolated': 0, 'following/preceding': 0, 'simultaneous': 0}
+
+#freuqnecy, t2, t3
+f_comb_1 = {'frequency': 0, 'low': 0, 'medium': 0, 'high': 0, 'isolated': 0, 'following/preceding': 0,
                  'simultaneous': 0}
+#frequency, t2, t3, duration
+f_comb_2 = {'duration':0, 'frequency': 0, 'low': 0, 'medium': 0, 'high': 0, 'isolated': 0, 'following/preceding': 0,
+                 'simultaneous': 0}
+
+#defaults containing each feature
+#always check which default feature combination is in use to know what to add to the recording data
+f_use  = [0, 1, 2]
+t3_use = [0, 1, 2]
+t2_use =   [1, 2]
+d_use  =     [2]
+
+feature_combinations = [f_comb_0, f_comb_1, f_comb_2]
+
+#fc - feature combination
+def extract(file, fc):
+    # recording
+    recording = feature_combinations[fc].copy()
 
     # read recording
     with open(file, 'r') as file:
@@ -28,19 +47,22 @@ def extract(file):
             while True:
                 tier = file.readline().replace('\n', '')
                 if(len(tier)<3): break
-                addTier(recording, tier)
+                addTier(recording, tier, fc)
 
     #frequency
-    frequency = calcFreq(count, end)
-    recording['frequency'] = frequency
+    if(fc in f_use):
+        frequency = calcFreq(count, end)
+        recording['frequency'] = frequency
     #duration
-    avg_duration = avg_duration/count
-    recording['duration']=avg_duration
+    if(fc in d_use):
+        avg_duration = avg_duration/count
+        recording['duration']=avg_duration
     return (recording)
 
-def addTier(recording, tier):
+def addTier(recording, tier,d ):
     # add annotation data to recording data
-    if(tier in tier2 or tier in tier3 ):
+    if(((tier in tier2) and (d in t2_use))
+            or ((tier in tier3) and (d in t3_use))):
         recording[tier] = recording.get(tier) + 1
 
 def calcFreq(count, end):

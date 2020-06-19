@@ -9,7 +9,6 @@ from sklearn.linear_model import LogisticRegression
 
 import createData
 
-#TODO: decide on classifier (binary)
 #TODO: decide on classifier parameters
 #TODO: grid search for best parameters?
 
