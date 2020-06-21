@@ -8,6 +8,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 
 import createData
+f = open('params.txt','w+')
 
 def run(classifier,params):
     train, test, train_labels, test_labels = createData.split()
@@ -21,7 +22,7 @@ def run(classifier,params):
     best = GridSearchCV(pipe, param_grid=params, scoring='accuracy', cv=2)
     #train (with best params)
     best.fit(train, train_labels)
-    print(best.best_params_)
+    f.write(str(best.best_params_)+'/n')
 
     #test
     predicted = best.predict(test)
@@ -36,20 +37,16 @@ def run(classifier,params):
     return accuracy
 
 #parameters for each classifier
-print(SVC().get_params().keys())
 paramsSVC = {'clf__C':[0.1,1,10],
              'clf__degree': [2,3],
              'clf__kernel':['linear', 'rbf', 'poly'],
              'clf__gamma':[0.1,1,10]}
-print(GaussianNB().get_params().keys())
 paramsGNB = {}
-print(RandomForestClassifier().get_params().keys())
 paramsRFC = {'clf__n_estimators':[10,100,1000],
              'clf__max_depth':[10,100,None],
              'clf__max_features':['auto','sqrt','log2'],
              'clf__min_samples_split': [2,10],
              'clf__min_samples_leaf': [1,2]}
-print(DecisionTreeClassifier().get_params().keys())
 paramsDTC = {'clf__criterion': ['gini','entropy'],
              'clf__splitter':['best','random'],
              'clf__max_depth':[10,100,None],
@@ -75,3 +72,4 @@ for i in range(n):
     results.append(avg(classifiers[i],params[i]))
 results_table.add_row(results)
 print(results_table)
+f.close()
