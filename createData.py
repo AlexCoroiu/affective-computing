@@ -20,7 +20,7 @@ unfamiliarSRT = glob.glob('unfamiliar/*.srt')
 
 familiarData = createData(familiarSRT)
 unfamiliarData = createData(unfamiliarSRT)
-print('example data entry:',familiarData[0])
+#print('example data entry:',familiarData[0])
 
 #create feature vectors
 vectorizer = DictVectorizer(sparse=False)
@@ -29,7 +29,7 @@ vectorizer = DictVectorizer(sparse=False)
 featureVectorsFamiliar = vectorizer.fit_transform(familiarData)
 featureVectorsUnfamiliar = vectorizer.transform(unfamiliarData)
 print('vocab:', vectorizer.get_feature_names())
-print('example feature vector:', featureVectorsFamiliar[0])
+#print('example feature vector:', featureVectorsFamiliar[0])
 
 #createdata numpy
 familiar = numpy.array(familiarData)
@@ -39,8 +39,11 @@ unfamiliar = numpy.array(unfamiliarData)
 labels_familiar = numpy.array([1]*len(familiar))
 labels_unfamiliar = numpy.array([0]*len(unfamiliar))
 
-#splitting data into train/test
+#combined
+data = numpy.concatenate((familiar, unfamiliar))
+labels = numpy.concatenate((labels_familiar,labels_unfamiliar))
+
+#ALWAYS SPLIT BALANCED -------------------------------------------------------------------------------------------------
 def split():
-    return train_test_split(numpy.concatenate((familiar, unfamiliar)),
-                                                          numpy.concatenate((labels_familiar,labels_unfamiliar)),
-                                                          test_size = 0.2)
+    # splitting data into train/test
+    return train_test_split(data,labels,test_size = 0.2,stratify=labels)

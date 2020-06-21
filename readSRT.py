@@ -4,6 +4,8 @@ zero = dt.datetime.strptime('00:00:00,000', '%H:%M:%S,%f')
 tier2 = ['low','medium','high']
 tier3 = ['isolated','following/preceding','simultaneous']
 
+# DIFFERENTS COMBINATIONS OF FEATURES ----------------------------------------------------------------------------------
+
 #frequency, t3
 f_comb_0 = {'frequency': 0, 'isolated': 0, 'following/preceding': 0, 'simultaneous': 0}
 
