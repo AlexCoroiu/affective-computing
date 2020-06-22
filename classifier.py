@@ -8,8 +8,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 
 import createData
+#CHANGE HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 f = open('params.txt','w+')
-
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 def run(classifier,params):
     train, test, train_labels, test_labels = createData.split()
 
@@ -22,7 +23,7 @@ def run(classifier,params):
     best = GridSearchCV(pipe, param_grid=params, scoring='accuracy', cv=2)
     #train (with best params)
     best.fit(train, train_labels)
-    f.write(str(best.best_params_)+'/n')
+    f.write(str(best.best_params_)+'\n')
 
     #test
     predicted = best.predict(test)

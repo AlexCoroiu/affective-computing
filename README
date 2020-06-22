@@ -1,0 +1,9 @@
+To run the program you need to run classifier.py. The program will:
+
+-extract data from srt
+-build feature vectors according to the desired feature combination
+-fine tune parameters for the classifiers
+-run each classifier 10 times and print the results
+
+createData.py line 15: change the feature combination to be used [0,1,2]
+classifier.py line 12: change the name of the file used to output results from the grid search.
